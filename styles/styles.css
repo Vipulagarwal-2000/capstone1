@@ -1,0 +1,235 @@
+body {
+    background-color: #FDF7E4cc;
+}
+
+.container {
+    width:65%;
+    margin: 50px auto;
+    border-color: none;
+    border-radius: 10px;
+    background-color: #FDF7E4;
+    padding:15px;
+}
+
+.profile {
+    border: 2px solid #E0F4FF;
+    float: right;
+    position: relative;
+    border-radius: 30%;
+    height: 250px;
+    width: 200px;
+    top:-80px;
+    margin-right: 5px;
+    margin-left:5px;
+
+    
+}
+
+a {
+    color:#989488;
+    text-decoration: none;
+    
+  
+}
+
+a:visited {
+    color:#989488;
+    text-decoration: Underline;
+}
+
+a:hover {
+    color: #994D1C;
+}
+
+a:active {
+    color:salmon;
+}
+
+.hb {
+    box-sizing: border-box;
+    display: inline-block;
+    width:20%;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: lighter;
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    left: 5px;
+    padding-top:20px;
+}
+
+.nav {display:flex;
+    width: 60%;
+    gap: 20px;
+    list-style-type: none;
+    position:relative;
+    top: -160px;
+    left: 35%;
+    font-size: 36px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+    
+    
+    
+}
+
+hr {
+    
+    height:1px;
+    border: 1px solid rgb(10, 7, 2);
+    background-color:rgb(10, 7, 2) ;
+}
+
+.obj { font-size: 28px;
+    
+    
+}
+
+.obji {
+    font-size: 20px;
+}
+
+.objective {
+    position:relative;
+    top: -120px;
+}
+
+.object {
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    text-align:start;
+    margin-right: 5px;;
+}
+
+.nav-ul {
+    border-color: none;
+    border-radius: 8%;
+    background-color: #FFF5C2;
+    padding:15px;
+    justify-content: start;
+
+}
+
+.education {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education li {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    background-color: #dedad1;
+    padding: 20px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+
+.education li span {
+    font-weight:590;
+}
+
+.training {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.training li.nh {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    background-color: #dedad1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 20px;
+    width: 90%;
+
+}
+
+.nh {
+    list-style-type: none;
+}
+
+.training li span {
+    font-weight:600;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(10, 250px);
+    gap: 20px;
+    height:fit-content;
+    overflow-x: auto;
+    list-style-type: none;
+   
+    
+
+}
+
+.port {
+    background-color: #EE7214;
+    margin-bottom: 15px;
+    height:160px;
+    
+    
+}
+
+.portfolio::-webkit-scrollbar {
+    width: 4px; /* Adjust the width of the scrollbar */
+  }
+  
+  /* Style the scrollbar handle */
+  .portfolio::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar handle */
+    border-radius: 10%; /* Make the scrollbar handle more rounded */
+  }
+  
+  /* Style the scrollbar track on hover */
+  .portfolio:hover::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color of the scrollbar handle on hover */
+  }
+
+
+  .imgport {
+    
+   width: 100%;
+   height:100%;
+   
+   
+
+  }
+
+  
+.imgport:hover {
+    scale:1.1 ;}
+  
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nlt {
+    list-style-type: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    background-color: #dedad1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: 20px;
+    width: 90%;
+   
+}
+
+.nlt li {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 550;
+    margin-bottom:3px;
+}
